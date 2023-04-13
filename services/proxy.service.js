@@ -49,7 +49,7 @@ module.exports = {
         port: 80,
         https: { port: 443 },
 
-        tcpTimeout: 120,
+        tcpTimeout: 500,
         retryOnError: 3,
         errorPage: fs.readFileSync(__dirname + '/../static/error_default.html')
     },
